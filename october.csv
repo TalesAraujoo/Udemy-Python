@@ -41,3 +41,6 @@ transaction_id,transaction_type,amount,date,category,sub_category
 40,Income,38.5,28/10/2025,Apps,99
 41,Expense,130.6,28/10/2025,Fixed Expenses,Gas
 42,Expense,13.23,28/10/2025,Entertainment,Others
+43,Income,32.7,30/10/2025,Apps,99
+44,Income,100.51,30/10/2025,Apps,Uber
+45,Expense,16.47,30/10/2025,Entertainment,Others
