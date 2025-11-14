@@ -1,3 +1,5 @@
+#this version was made only with a list of strings and simple functions to do 
+# what we have in the simple start menu
 import csv
 
 
@@ -31,6 +33,15 @@ def get_option(chosen_option):
             print('Exiting program...')
             print('Great job, keep shit updated!\n')
 
+
+def create_row(trans_type, amount):
+
+    row_data = {
+        "transaction_type": trans_type,
+        "amount": amount
+    }
+
+    return row_data
 
 def add_income():
     with open('september.csv', 'a', newline='') as csvfile: 
@@ -73,4 +84,3 @@ def show_report():
 
 
 show_menu()
-
